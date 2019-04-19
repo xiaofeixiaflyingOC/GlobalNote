@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4233FD9D3AAD808E41E3AA /* libPods-GlobalNoteTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D958F9C055A34C727E44C5 /* libPods-GlobalNoteTests.a */; };
+		13387162F349B0875C1C5A42 /* libPods-GlobalNoteUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CDFB9F8A5ADFDF3D54A05B /* libPods-GlobalNoteUITests.a */; };
+		40AD1F032269CB51005AA6FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD1F022269CB51005AA6FE /* AppDelegate.m */; };
+		40AD1F062269CB51005AA6FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD1F052269CB51005AA6FE /* ViewController.m */; };
+		40AD1F092269CB51005AA6FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AD1F072269CB51005AA6FE /* Main.storyboard */; };
+		40AD1F0B2269CB51005AA6FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AD1F0A2269CB51005AA6FE /* Assets.xcassets */; };
+		40AD1F0E2269CB51005AA6FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AD1F0C2269CB51005AA6FE /* LaunchScreen.storyboard */; };
+		40AD1F112269CB51005AA6FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD1F102269CB51005AA6FE /* main.m */; };
+		40AD1F1B2269CB51005AA6FE /* GlobalNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD1F1A2269CB51005AA6FE /* GlobalNoteTests.m */; };
+		40AD1F262269CB51005AA6FE /* GlobalNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD1F252269CB51005AA6FE /* GlobalNoteUITests.m */; };
+		40AD1F3D2269CBF7005AA6FE /* GlobalNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD1F392269CBF7005AA6FE /* GlobalNote.m */; };
+		40AD1F3E2269CBF7005AA6FE /* GlobalNoteFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD1F3A2269CBF7005AA6FE /* GlobalNoteFormatter.m */; };
+		43F35F8E5D0448347781F7A1 /* libPods-GlobalNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6AD2EA0A27577390821292 /* libPods-GlobalNote.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40AD1F172269CB51005AA6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40AD1EF62269CB51005AA6FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40AD1EFD2269CB51005AA6FE;
+			remoteInfo = GlobalNote;
+		};
+		40AD1F222269CB51005AA6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40AD1EF62269CB51005AA6FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40AD1EFD2269CB51005AA6FE;
+			remoteInfo = GlobalNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D958F9C055A34C727E44C5 /* libPods-GlobalNoteTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalNoteTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F05CA3DA9F80EB9E114062F /* Pods-GlobalNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalNote.release.xcconfig"; path = "Target Support Files/Pods-GlobalNote/Pods-GlobalNote.release.xcconfig"; sourceTree = "<group>"; };
+		27FF625B093C6BED543A2429 /* Pods-GlobalNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalNoteUITests.debug.xcconfig"; path = "Target Support Files/Pods-GlobalNoteUITests/Pods-GlobalNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CCF6D0475C2F093F9C9CE37 /* Pods-GlobalNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalNoteTests.debug.xcconfig"; path = "Target Support Files/Pods-GlobalNoteTests/Pods-GlobalNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40AD1EFE2269CB51005AA6FE /* GlobalNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40AD1F012269CB51005AA6FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40AD1F022269CB51005AA6FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40AD1F042269CB51005AA6FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40AD1F052269CB51005AA6FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40AD1F082269CB51005AA6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40AD1F0A2269CB51005AA6FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40AD1F0D2269CB51005AA6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40AD1F0F2269CB51005AA6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40AD1F102269CB51005AA6FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40AD1F162269CB51005AA6FE /* GlobalNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40AD1F1A2269CB51005AA6FE /* GlobalNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalNoteTests.m; sourceTree = "<group>"; };
+		40AD1F1C2269CB51005AA6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40AD1F212269CB51005AA6FE /* GlobalNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40AD1F252269CB51005AA6FE /* GlobalNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalNoteUITests.m; sourceTree = "<group>"; };
+		40AD1F272269CB51005AA6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40AD1F392269CBF7005AA6FE /* GlobalNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalNote.m; sourceTree = "<group>"; };
+		40AD1F3A2269CBF7005AA6FE /* GlobalNoteFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalNoteFormatter.m; sourceTree = "<group>"; };
+		40AD1F3B2269CBF7005AA6FE /* GlobalNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalNote.h; sourceTree = "<group>"; };
+		40AD1F3C2269CBF7005AA6FE /* GlobalNoteFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalNoteFormatter.h; sourceTree = "<group>"; };
+		46CDFB9F8A5ADFDF3D54A05B /* libPods-GlobalNoteUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalNoteUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A17E4CAC248AAD592D05BF /* Pods-GlobalNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalNoteTests.release.xcconfig"; path = "Target Support Files/Pods-GlobalNoteTests/Pods-GlobalNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		64C61798E96832F0452CBDE2 /* Pods-GlobalNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalNote.debug.xcconfig"; path = "Target Support Files/Pods-GlobalNote/Pods-GlobalNote.debug.xcconfig"; sourceTree = "<group>"; };
+		8C6AD2EA0A27577390821292 /* libPods-GlobalNote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalNote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD3EAA24F3CE354665AA22F /* Pods-GlobalNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalNoteUITests.release.xcconfig"; path = "Target Support Files/Pods-GlobalNoteUITests/Pods-GlobalNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40AD1EFB2269CB51005AA6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F35F8E5D0448347781F7A1 /* libPods-GlobalNote.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40AD1F132269CB51005AA6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4233FD9D3AAD808E41E3AA /* libPods-GlobalNoteTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40AD1F1E2269CB51005AA6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13387162F349B0875C1C5A42 /* libPods-GlobalNoteUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40AD1EF52269CB51005AA6FE = {
+			isa = PBXGroup;
+			children = (
+				40AD1F002269CB51005AA6FE /* GlobalNote */,
+				40AD1F192269CB51005AA6FE /* GlobalNoteTests */,
+				40AD1F242269CB51005AA6FE /* GlobalNoteUITests */,
+				40AD1EFF2269CB51005AA6FE /* Products */,
+				A5B50B9BF5E22D140E4FA863 /* Pods */,
+				BCD6D5A392DBB6634395C6B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40AD1EFF2269CB51005AA6FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40AD1EFE2269CB51005AA6FE /* GlobalNote.app */,
+				40AD1F162269CB51005AA6FE /* GlobalNoteTests.xctest */,
+				40AD1F212269CB51005AA6FE /* GlobalNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40AD1F002269CB51005AA6FE /* GlobalNote */ = {
+			isa = PBXGroup;
+			children = (
+				40AD1F382269CBF7005AA6FE /* GlobalNote */,
+				40AD1F012269CB51005AA6FE /* AppDelegate.h */,
+				40AD1F022269CB51005AA6FE /* AppDelegate.m */,
+				40AD1F042269CB51005AA6FE /* ViewController.h */,
+				40AD1F052269CB51005AA6FE /* ViewController.m */,
+				40AD1F072269CB51005AA6FE /* Main.storyboard */,
+				40AD1F0A2269CB51005AA6FE /* Assets.xcassets */,
+				40AD1F0C2269CB51005AA6FE /* LaunchScreen.storyboard */,
+				40AD1F0F2269CB51005AA6FE /* Info.plist */,
+				40AD1F102269CB51005AA6FE /* main.m */,
+			);
+			path = GlobalNote;
+			sourceTree = "<group>";
+		};
+		40AD1F192269CB51005AA6FE /* GlobalNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				40AD1F1A2269CB51005AA6FE /* GlobalNoteTests.m */,
+				40AD1F1C2269CB51005AA6FE /* Info.plist */,
+			);
+			path = GlobalNoteTests;
+			sourceTree = "<group>";
+		};
+		40AD1F242269CB51005AA6FE /* GlobalNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40AD1F252269CB51005AA6FE /* GlobalNoteUITests.m */,
+				40AD1F272269CB51005AA6FE /* Info.plist */,
+			);
+			path = GlobalNoteUITests;
+			sourceTree = "<group>";
+		};
+		40AD1F382269CBF7005AA6FE /* GlobalNote */ = {
+			isa = PBXGroup;
+			children = (
+				40AD1F3B2269CBF7005AA6FE /* GlobalNote.h */,
+				40AD1F392269CBF7005AA6FE /* GlobalNote.m */,
+				40AD1F3C2269CBF7005AA6FE /* GlobalNoteFormatter.h */,
+				40AD1F3A2269CBF7005AA6FE /* GlobalNoteFormatter.m */,
+			);
+			path = GlobalNote;
+			sourceTree = "<group>";
+		};
+		A5B50B9BF5E22D140E4FA863 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64C61798E96832F0452CBDE2 /* Pods-GlobalNote.debug.xcconfig */,
+				1F05CA3DA9F80EB9E114062F /* Pods-GlobalNote.release.xcconfig */,
+				3CCF6D0475C2F093F9C9CE37 /* Pods-GlobalNoteTests.debug.xcconfig */,
+				54A17E4CAC248AAD592D05BF /* Pods-GlobalNoteTests.release.xcconfig */,
+				27FF625B093C6BED543A2429 /* Pods-GlobalNoteUITests.debug.xcconfig */,
+				ECD3EAA24F3CE354665AA22F /* Pods-GlobalNoteUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCD6D5A392DBB6634395C6B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C6AD2EA0A27577390821292 /* libPods-GlobalNote.a */,
+				11D958F9C055A34C727E44C5 /* libPods-GlobalNoteTests.a */,
+				46CDFB9F8A5ADFDF3D54A05B /* libPods-GlobalNoteUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40AD1EFD2269CB51005AA6FE /* GlobalNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40AD1F2A2269CB51005AA6FE /* Build configuration list for PBXNativeTarget "GlobalNote" */;
+			buildPhases = (
+				B981743154FA5AE5C165D4D0 /* [CP] Check Pods Manifest.lock */,
+				40AD1EFA2269CB51005AA6FE /* Sources */,
+				40AD1EFB2269CB51005AA6FE /* Frameworks */,
+				40AD1EFC2269CB51005AA6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlobalNote;
+			productName = GlobalNote;
+			productReference = 40AD1EFE2269CB51005AA6FE /* GlobalNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40AD1F152269CB51005AA6FE /* GlobalNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40AD1F2D2269CB51005AA6FE /* Build configuration list for PBXNativeTarget "GlobalNoteTests" */;
+			buildPhases = (
+				83A6FEC73A59DFA2C17511E1 /* [CP] Check Pods Manifest.lock */,
+				40AD1F122269CB51005AA6FE /* Sources */,
+				40AD1F132269CB51005AA6FE /* Frameworks */,
+				40AD1F142269CB51005AA6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40AD1F182269CB51005AA6FE /* PBXTargetDependency */,
+			);
+			name = GlobalNoteTests;
+			productName = GlobalNoteTests;
+			productReference = 40AD1F162269CB51005AA6FE /* GlobalNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40AD1F202269CB51005AA6FE /* GlobalNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40AD1F302269CB51005AA6FE /* Build configuration list for PBXNativeTarget "GlobalNoteUITests" */;
+			buildPhases = (
+				BA0E35F0DC5D0BB417BA0F28 /* [CP] Check Pods Manifest.lock */,
+				40AD1F1D2269CB51005AA6FE /* Sources */,
+				40AD1F1E2269CB51005AA6FE /* Frameworks */,
+				40AD1F1F2269CB51005AA6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40AD1F232269CB51005AA6FE /* PBXTargetDependency */,
+			);
+			name = GlobalNoteUITests;
+			productName = GlobalNoteUITests;
+			productReference = 40AD1F212269CB51005AA6FE /* GlobalNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40AD1EF62269CB51005AA6FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = shengxin;
+				TargetAttributes = {
+					40AD1EFD2269CB51005AA6FE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					40AD1F152269CB51005AA6FE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 40AD1EFD2269CB51005AA6FE;
+					};
+					40AD1F202269CB51005AA6FE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 40AD1EFD2269CB51005AA6FE;
+					};
+				};
+			};
+			buildConfigurationList = 40AD1EF92269CB51005AA6FE /* Build configuration list for PBXProject "GlobalNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40AD1EF52269CB51005AA6FE;
+			productRefGroup = 40AD1EFF2269CB51005AA6FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40AD1EFD2269CB51005AA6FE /* GlobalNote */,
+				40AD1F152269CB51005AA6FE /* GlobalNoteTests */,
+				40AD1F202269CB51005AA6FE /* GlobalNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40AD1EFC2269CB51005AA6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AD1F0E2269CB51005AA6FE /* LaunchScreen.storyboard in Resources */,
+				40AD1F0B2269CB51005AA6FE /* Assets.xcassets in Resources */,
+				40AD1F092269CB51005AA6FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40AD1F142269CB51005AA6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40AD1F1F2269CB51005AA6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83A6FEC73A59DFA2C17511E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlobalNoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B981743154FA5AE5C165D4D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlobalNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA0E35F0DC5D0BB417BA0F28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlobalNoteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40AD1EFA2269CB51005AA6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AD1F062269CB51005AA6FE /* ViewController.m in Sources */,
+				40AD1F3E2269CBF7005AA6FE /* GlobalNoteFormatter.m in Sources */,
+				40AD1F112269CB51005AA6FE /* main.m in Sources */,
+				40AD1F3D2269CBF7005AA6FE /* GlobalNote.m in Sources */,
+				40AD1F032269CB51005AA6FE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40AD1F122269CB51005AA6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AD1F1B2269CB51005AA6FE /* GlobalNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40AD1F1D2269CB51005AA6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AD1F262269CB51005AA6FE /* GlobalNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40AD1F182269CB51005AA6FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40AD1EFD2269CB51005AA6FE /* GlobalNote */;
+			targetProxy = 40AD1F172269CB51005AA6FE /* PBXContainerItemProxy */;
+		};
+		40AD1F232269CB51005AA6FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40AD1EFD2269CB51005AA6FE /* GlobalNote */;
+			targetProxy = 40AD1F222269CB51005AA6FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40AD1F072269CB51005AA6FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40AD1F082269CB51005AA6FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40AD1F0C2269CB51005AA6FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40AD1F0D2269CB51005AA6FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40AD1F282269CB51005AA6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40AD1F292269CB51005AA6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40AD1F2B2269CB51005AA6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C61798E96832F0452CBDE2 /* Pods-GlobalNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlobalNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.custom.GlobalNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40AD1F2C2269CB51005AA6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F05CA3DA9F80EB9E114062F /* Pods-GlobalNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlobalNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.custom.GlobalNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40AD1F2E2269CB51005AA6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCF6D0475C2F093F9C9CE37 /* Pods-GlobalNoteTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlobalNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.custom.GlobalNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobalNote.app/GlobalNote";
+			};
+			name = Debug;
+		};
+		40AD1F2F2269CB51005AA6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A17E4CAC248AAD592D05BF /* Pods-GlobalNoteTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlobalNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.custom.GlobalNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobalNote.app/GlobalNote";
+			};
+			name = Release;
+		};
+		40AD1F312269CB51005AA6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FF625B093C6BED543A2429 /* Pods-GlobalNoteUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlobalNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.custom.GlobalNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlobalNote;
+			};
+			name = Debug;
+		};
+		40AD1F322269CB51005AA6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD3EAA24F3CE354665AA22F /* Pods-GlobalNoteUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlobalNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.custom.GlobalNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlobalNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40AD1EF92269CB51005AA6FE /* Build configuration list for PBXProject "GlobalNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40AD1F282269CB51005AA6FE /* Debug */,
+				40AD1F292269CB51005AA6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40AD1F2A2269CB51005AA6FE /* Build configuration list for PBXNativeTarget "GlobalNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40AD1F2B2269CB51005AA6FE /* Debug */,
+				40AD1F2C2269CB51005AA6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40AD1F2D2269CB51005AA6FE /* Build configuration list for PBXNativeTarget "GlobalNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40AD1F2E2269CB51005AA6FE /* Debug */,
+				40AD1F2F2269CB51005AA6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40AD1F302269CB51005AA6FE /* Build configuration list for PBXNativeTarget "GlobalNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40AD1F312269CB51005AA6FE /* Debug */,
+				40AD1F322269CB51005AA6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40AD1EF62269CB51005AA6FE /* Project object */;
+}
